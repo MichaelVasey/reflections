@@ -12,5 +12,13 @@ The repository holds the commit history for the project. It is an archive of pre
 
 The staging area is an intermediary between the working directory and the repository. When files are modified and ready to be committed they can be added to the staging area individually and then committed in a single commit. This means that committing changes that affect multiple files can be made in the same commit, so that a logical single updated version is recorded, rather than single commits to individual files which might then need to be synchronised manually to recreate the project as it existed at that point in time.
 
-This process of saving related file changes as a single commit helps rationalise and clarify the commit history. 
+This process of saving related file changes as a single commit helps rationalise and clarify the commit history.
+
+Situations when branches are helpful in keeping histories organised.
+
+When new experimental features are being worked on, having a separate branch allows for parallel development paths that can be worked on independently.
+Some branches might later be merged into the main branch if the feature is succesfully completed.
+If the project is live, having branches allows the live version to be maintained and online while experiments and other developments are progressed in isolation until the feature is either finished and accepted or discarded.
+This way, the master branch is not made to undergo many revisions and possible reversions that might interrupt its availability (eg a live website) and there's no risk to the master version that a change might break what works.
+Alternate branches can be thoroughly tested before merging with the master to add the feature.
 
