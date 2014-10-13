@@ -27,3 +27,12 @@ Diagrams for visualising branch structure
 Diagrams can be drawn to illustrate the branch structure of a repository. These are useful in illustrating where branches begin and the commits that are different between branches and commits that are shared between branches. It can also be useful in identifying or illustrating the concept of unreachable commits - the detached HEAD scenario - that is characterised by unreachable commits.
 Commit histories are traced back along branches from each commit to its parent until the initial commit (which is without a parent) is reached.
 
+Merging branches
+
+Merging one branch into another (often the master) combines the commit histories of the two branches so that the single merged branch contains all of the commits from the seperate branches in the order in which they were created.
+A merge is performed, for example, when a new feature being developed in its own branch is complete and ready to be added to the live project.
+
+When the branches are combined, the merging branch can be deleted since its commit history is now part of the branch it is merged with and reamin accessible.
+
+On the branch diagram, a merge is represented by a commit node which is the parent of the most recent commits on each of the separate merged nodes.
+
