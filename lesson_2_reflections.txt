@@ -36,3 +36,9 @@ When the branches are combined, the merging branch can be deleted since its comm
 
 On the branch diagram, a merge is represented by a commit node which is the parent of the most recent commits on each of the separate merged nodes.
 
+Automatic and manual merging
+
+Where possible, git will automatically merge branches without having to ask for user input. If however there are merge conflicts, the merge will abort and git will ask the user to resolve the conflict so that the merge can proceed.
+The benefit of automatic merging is that the user can let git perform the merge without having to check the files manually unless git flags a conflict.
+When a conflict does occur, git identifies the file and the place in the code so that the user can easily see the different versions and choose between them.
+
