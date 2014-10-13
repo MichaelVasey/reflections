@@ -22,3 +22,8 @@ If the project is live, having branches allows the live version to be maintained
 This way, the master branch is not made to undergo many revisions and possible reversions that might interrupt its availability (eg a live website) and there's no risk to the master version that a change might break what works.
 Alternate branches can be thoroughly tested before merging with the master to add the feature.
 
+Diagrams for visualising branch structure
+
+Diagrams can be drawn to illustrate the branch structure of a repository. These are useful in illustrating where branches begin and the commits that are different between branches and commits that are shared between branches. It can also be useful in identifying or illustrating the concept of unreachable commits - the detached HEAD scenario - that is characterised by unreachable commits.
+Commit histories are traced back along branches from each commit to its parent until the initial commit (which is without a parent) is reached.
+
