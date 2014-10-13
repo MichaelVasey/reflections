@@ -10,5 +10,7 @@ The working directory makes available the files currently being worked on or rev
 
 The repository holds the commit history for the project. It is an archive of previous versions.
 
-The staging area is an intermediary between the working directory and the repository. When files are modified and ready to be committed they can be added to the staging area individually and then committed in a single commit. This means that committing changes that affect multiple files can be made in the same commit, so that a logical single updated version is recorded, rather than single commits to individual files which might then need to be synchronised manually to recreate the project as it existed at that point in time. 
+The staging area is an intermediary between the working directory and the repository. When files are modified and ready to be committed they can be added to the staging area individually and then committed in a single commit. This means that committing changes that affect multiple files can be made in the same commit, so that a logical single updated version is recorded, rather than single commits to individual files which might then need to be synchronised manually to recreate the project as it existed at that point in time.
+
+This process of saving related file changes as a single commit helps rationalise and clarify the commit history. 
 
