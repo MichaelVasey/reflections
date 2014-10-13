@@ -5,3 +5,11 @@ Remote repositories are useful in collaborative projects where they can serve as
 Having a remotely hosted version of a project has other accessibility benefits - the project files can be pulled to any computer you might be working on, so that you are able to continue to work if you are away from your own computer.
 
 In addition, hosting a repository on the internet means that there is a safety net in case local project files are lost, deleted or corrupted somehow.
+
+Forks, branches and clones
+
+Forks are clones of repositories that are created by and remain within github. Forking a project on github means creating a copy of all the files in that project's repository and saving it to your own profile. The cloning is carried out by github automatically.
+
+Branches are alternative parallel paths within a project that can be used to develop features or fix bugs without modifying the live project branch until the feature or bug fix is ready to be merged in. Branches exist within projects, each branch having its own commit history and label for identification. Branches exist until they are merged with the master branch or discarded.
+
+Clones are copies of repositories at the moment in time the clone is created. Forks are clones, but often cloning a repository involves copying a repository from a remote host into a directory on your local computer. The clone and the origin retain a link, allowing changes made locally to be pushed to the origin, and changes to the remote repository to be pulled to the local clones. 
