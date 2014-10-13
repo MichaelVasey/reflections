@@ -1,0 +1,34 @@
+How did viewing the difference between two versions of a file help you see the bug that was introduced?
+
+The diff -u command displays only the lines of the files that are different between the two files. This helps in pinpointing the places in the files where changes have been made, and makes it easier to identify the nature of the changes
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It facilitates making revisions to files. If something has to be changed, or changes undone, you're able to revert to older versions without having to delete or redo sections of code.
+
+The pros and cons of manually choosing commit points as with Git, vs automatic save points as with, for example, Google docs
+
+Pros
+Flexibility
+Human more able to make logical decisions on appropriate commits
+Commits are not necessarily time-dependent - making commits at precisely regular intervals is not in itself logical
+
+Cons
+Automatic commits ensure that regular commits are made, so that diferences between commits don't become too large
+They ensure that working save points are created that could be invaluable if, for example work is unintentionally lost before a logical commit has been made.
+
+Git usually is dealing with repositories with more than one connected file, so it makes sense to record changes as versions of the entire connected project so you have a project history
+
+Google docs deals separately with individual files that are less likely to be so tightly connected to one another.
+
+
+Using Git
+git log
+returns a list of commits for the current directory from most recent to first commit, each with a unique commit ID
+
+git diff
+compares two commits and highlights the changes between them
+
+How might using version control make you more confident to make changes that can break something?
+
+They can be (reasonably) easily located and reverted
