@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Remote repositories are useful in collaborative projects where they can serve as a central point for colleagues working together to push their changes and pull the most recent commits made by others.
+
+Having a remotely hosted version of a project has other accessibility benefits - the project files can be pulled to any computer you might be working on, so that you are able to continue to work if you are away from your own computer.
+
+In addition, hosting a repository on the internet means that there is a safety net in case local project files are lost, deleted or corrupted somehow.
