@@ -23,3 +23,8 @@ Collaborating without Github
 
 All the things that github handles automatically, like creating and communicating pull requests, would need to be done manually. It's probably a simpler and more certain method of managing the project to have github maintain the remote repository and mediate the interactions between collaborators and between collaborators and the code.
 Without github acting as a central repository, another means of hosting and updating the live version of a project would need to be found, and rules established for coordinating contributions.
+
+Working in separate branches
+
+Making changes in a separate branch from master allows features to be worked on in isolation and away from the live or official version of the project. This means that the live/official version on master is not affected by incomplete features that are not ready to be merged and that may never be part of the official version.
+Separate feature branches can be reviewed by collaborators before a decision is made on whther to merge the branch into master to add the feature or change.
