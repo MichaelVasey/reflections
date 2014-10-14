@@ -12,4 +12,9 @@ Forks are clones of repositories that are created by and remain within github. F
 
 Branches are alternative parallel paths within a project that can be used to develop features or fix bugs without modifying the live project branch until the feature or bug fix is ready to be merged in. Branches exist within projects, each branch having its own commit history and label for identification. Branches exist until they are merged with the master branch or discarded.
 
-Clones are copies of repositories at the moment in time the clone is created. Forks are clones, but often cloning a repository involves copying a repository from a remote host into a directory on your local computer. The clone and the origin retain a link, allowing changes made locally to be pushed to the origin, and changes to the remote repository to be pulled to the local clones. 
+Clones are copies of existing repositories at the moment in time the clone is created. Forks are clones, but often cloning a repository involves copying a repository from a remote host into a directory on your local computer. The clone and the origin retain a link, allowing changes made locally to be pushed to the origin, and changes to the remote repository to be pulled to the local clones. 
+
+Benefit of having copy of last known state of the remote stored locally
+
+One benefit is that it allows you to work on the most up-to-date version of the remote possible, if for example you are unable to access the remote for a period of time.
+Having a local copy also allows you to run comparisons with git log and git diff to see the differences between your local branch and the remote.
