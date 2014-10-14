@@ -18,3 +18,8 @@ Benefit of having copy of last known state of the remote stored locally
 
 One benefit is that it allows you to work on the most up-to-date version of the remote possible, if for example you are unable to access the remote for a period of time.
 Having a local copy also allows you to run comparisons with git log and git diff to see the differences between your local branch and the remote.
+
+Collaborating without Github
+
+All the things that github handles automatically, like creating and communicating pull requests, would need to be done manually. It's probably a simpler and more certain method of managing the project to have github maintain the remote repository and mediate the interactions between collaborators and between collaborators and the code.
+Without github acting as a central repository, another means of hosting and updating the live version of a project would need to be found, and rules established for coordinating contributions.
